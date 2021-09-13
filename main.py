@@ -147,7 +147,7 @@ def SEIR_model(y, time, N, beta, alpha, gamma):
 ## Solve the ordinary differential equations:
 
 output2 = odeint(func=SEIR_model, y0=y_in_seir, t=duration, args=(N_in, beta, alpha, gamma))
-S, E, I, R = output2.T.astype(int)
+S, E, I, R = output2.T
 output2_df = pd.DataFrame(output2)
 output2_df = output2_df.rename(columns={0: 'S',
                                        1: 'E',
