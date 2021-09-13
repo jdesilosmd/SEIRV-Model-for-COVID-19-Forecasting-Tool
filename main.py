@@ -25,7 +25,7 @@ st.title('SEIRV Model for COVID-19 in a University Setting')
 st.write ('(SEIRV: Susceptible, Exposed, Infected, Recovered, Vaccinated)')
 st.markdown('---')
 
-col1, col2, col3 = st.beta_columns((1, 1, 2.25))
+col1, col2, col3 = st.columns((1, 1, 2.25))
 
 st.sidebar.header('Initial State Values:')
 N_in = st.sidebar.number_input(
@@ -160,7 +160,7 @@ output2_df['Days'] = output2_df.index
 
 st.markdown('---')
 st.markdown('### **Simulation Result:**')
-with st.beta_expander('See simulation result'):
+with st.expander('See simulation result'):
     # Plot the data:
 
     model_plot = make_subplots(rows=2, cols=1,
