@@ -53,7 +53,7 @@ v_eff = col2.number_input(
 
 
 
-mask_use = st.sidebar.radio('100% Strict Mask Use In-Campus:',
+mask_use = st.sidebar.radio('100% Strict Mask Use is Observed:',
                             ('Yes', 'No'))
 if mask_use == 'Yes':
     R0 = R0_input-(R0_input*0.258)
