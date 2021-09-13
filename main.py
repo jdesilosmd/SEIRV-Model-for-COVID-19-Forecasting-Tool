@@ -8,7 +8,7 @@ import streamlit as st
 
 from idmcomp import IdmComp
 
-#   SEIRV Model for COVID-19 in a University Setting:
+#   SEIRV Model for COVID-19 Forecasting Tool:
 #   Parameters (based on a paper by Boldog et al (2020):
 #   Link to the paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073711/
 #   Also referenced in this Colab notebook:
@@ -21,7 +21,7 @@ st.set_page_config(page_title='SEIRV Model',
                    initial_sidebar_state='auto')
 
 #   Title:
-st.title('SEIRV Model for COVID-19 in a University Setting')
+st.title('SEIRV Model for COVID-19 Forecasting Tool')
 st.write ('(SEIRV: Susceptible, Exposed, Infected, Recovered, Vaccinated)')
 st.markdown('---')
 
