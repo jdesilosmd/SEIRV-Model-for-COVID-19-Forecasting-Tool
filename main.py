@@ -205,7 +205,7 @@ with st.expander('See simulation result'):
     model_plot.add_trace(go.Scatter(x=output_df['Days'],
                                     y=output_df['V'],
                                     legendgroup=1,
-                                    name='Vaccinated ({}% of N)'.format(cov_val)),
+                                    name='Vaccinated ({}% of N)'.format(cov_val*100)),
                          row=1, col=1)
 
 
