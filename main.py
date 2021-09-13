@@ -164,7 +164,7 @@ with st.expander('See simulation result'):
     # Plot the data:
 
     model_plot = make_subplots(rows=2, cols=1,
-                               subplot_titles=('<b>SEIRV Model for COVID-19, University Setting:</b><br>'\
+                               subplot_titles=('<b>Simulated COVID-19 figures Using the SEIRV Model:</b><br>'\
                                                '(Vaccine Coverage = {}%, Vaccine Efficacy = {}%)'.format(cov_val*100, v_eff*100),
                                                '<b>Infected Population with no Intervention and With Vaccination = {}% </b><br>'\
                                                '(Vaccine Coverage = {}%, Vaccine Efficacy = {}%)'.format(v_eff*100, cov_val*100, v_eff*100)))
