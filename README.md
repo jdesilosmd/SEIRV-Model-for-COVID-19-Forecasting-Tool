@@ -1,2 +1,2 @@
-# SEIRV Model for COVID-19 Forecasting Tool
+# SEIRV Infectious Disease Forecasting Tool
  
